@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.streamlit/secrets.toml
+
+# Uploaded PDFs
+old_uploaded.pdf
+new_uploaded.pdf
+
+# Local test PDFs
+data/*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
